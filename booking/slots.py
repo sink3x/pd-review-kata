@@ -1,7 +1,7 @@
 """Слоты консультаций."""
 
 SLOTS = ["09:00", "11:00", "14:00", "16:00"]
-MAX_PER_SLOT = 2
+MAX_PER_SLOT = 3
 
 
 def is_known_slot(slot: str) -> bool:
